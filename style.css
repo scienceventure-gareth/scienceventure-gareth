@@ -1,0 +1,83 @@
+/* CSS files add styling rules to your content */
+.header {
+  background-color:#66CCAA;
+  color:white;
+  text-align:center;
+  padding:5px 0px 0px 0px;
+}
+
+.header h1 {
+  font-famiy:helvetica;
+  padding: 0 0 10px 0;
+}
+
+.header li {
+    font-family:sans-serif;
+    display:inline;
+    padding:0 5%;
+}
+
+.content{
+  padding:0px 10px 0px 10px;
+  font-family:sans-serif;
+}
+
+.content h1 {
+  font-size:25px
+}
+
+.content img{
+  float:left;
+  padding:0px 10px 10px 0px;
+}
+
+.footer {
+  text-align:center;
+  color:white;
+  clear:both;
+  background-color:grey;
+}
+
+.footer p {
+  padding:5px;
+  text-align:right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
